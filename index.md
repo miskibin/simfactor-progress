@@ -27,6 +27,7 @@ Potwierdzone osiągnięcia i aktualny stan planu. Aktualizacja: **9 września 20
 
 - Moondream 3.1 odnalazł **10 z 12 ludzkich ramek** przy IoU ≥0,5, a 4 z 12 przy ≥0,75. To mała próba z częściowymi etykietami; nie mierzy jeszcze precyzji ani kompletności całych scen.
 - Qwen Image Edit przy 1024 px narysował dwie sensowne ramki na jednym kontrolnym obrazie, zachowując układ sceny. To obiecujący przykład, wymagający sprawdzenia na większym zestawie.
+- Przeniesiono same współrzędne tych ramek na oryginalny obraz: **0 zmienionych pikseli poza liniami ramek**. Usuwa to dodatkowe rozmycie od generacji; poprawność lokalizacji nadal wymaga oceny.
 - Zachowano dotychczasowe etykiety i bramkę jakości. Wyników tej próby nie dodano do treningu.
 
 ### 2026-09-09 · Nowa baza do rozwoju datasetu
