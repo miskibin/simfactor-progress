@@ -23,6 +23,11 @@ Potwierdzone osiągnięcia i aktualny stan planu. Aktualizacja: **9 września 20
 
 ## Co się udało
 
+### 2026-09-09 · Sprawdzone pokrycie dużych obiektów
+
+- Audyt wykazał, że dataset v1 ma **378 adnotacji w 5 z 20 zadeklarowanych klas**; bramownice trakcyjne i podpory sygnałowe mają w nim **0 adnotacji**. Istniejące propozycje wymagają oceny.
+- Wykryto niespójne przypisanie bramownic sygnałowych do trakcyjnych. Zapisano lukę oraz propozycję priorytetów dużych i ważnych obiektów; etykiety i taksonomia w kodzie pozostają niezmienione.
+
 ### 2026-09-09 · Pierwsza próba lokalnej anotacji
 
 - Moondream 3.1 odnalazł **10 z 12 ludzkich ramek** przy IoU ≥0,5, a 4 z 12 przy ≥0,75. To mała próba z częściowymi etykietami; nie mierzy jeszcze precyzji ani kompletności całych scen.
