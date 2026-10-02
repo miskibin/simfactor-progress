@@ -2,6 +2,24 @@
   "schema_version": 1,
   "events": [
     {
+      "id": "e-55ac3c4b24b8",
+      "kind": "result",
+      "text": "Test pominięć ujawnił błędne dopasowanie do sąsiedniego przejazdu.",
+      "detail": "W próbie rozwojowej z 10 referencjami agenta matcher zaakceptował też 25 z 96 sztucznych zdarzeń. Warunek wspólnej cechy konstrukcji odrzucił te przypadki, lecz nadal przyjął 7 z 240 kopii pełnych sygnatur. Sprawdzamy wpływ odrzuconych par na koszt dopasowania; metoda nie przeszła bramki końcowej.",
+      "url": null,
+      "author": {
+        "name": "Agent",
+        "session_id": "01a0fb40-2c5e-7261-8a8d-abcdd00157c3"
+      },
+      "origin": "agent",
+      "source_label": null,
+      "created_at": "2026-10-02T12:29:06+00:00",
+      "updated_at": "2026-10-02T12:29:06+00:00",
+      "resolved_at": null,
+      "resolution": null,
+      "status": "recorded"
+    },
+    {
       "id": "e-d9da0ec89092",
       "kind": "result",
       "text": "Kalibracja kamery poprawia głębokość MoGe, lecz nie kontury cienkich słupów.",
@@ -146,11 +164,11 @@
       "status": "open"
     }
   ],
-  "revision": 10,
-  "latest_event_at": "2026-10-02T12:16:57+00:00",
+  "revision": 11,
+  "latest_event_at": "2026-10-02T12:29:06+00:00",
   "publication": {
     "site_url": "https://miskibin.github.io/simfactor-progress/",
-    "generation": "6bc3305515c6cd1e753fbfed"
+    "generation": "77a3c654ce76e49d0069e498"
   },
-  "generated_at": "2026-10-02T12:25:00+00:00"
+  "generated_at": "2026-10-02T12:29:15+00:00"
 }
