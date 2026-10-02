@@ -2,6 +2,24 @@
   "schema_version": 1,
   "events": [
     {
+      "id": "e-6fcbe1ab27d3",
+      "kind": "result",
+      "text": "Source-only railbed warp probe found an orientation/displacement ambiguity in one window; 11 of 16 frozen profiles refused on common-pixel support. Larger-motion and non-sleeper comparisons remain untested, so the negative feature tracks cannot yet be attributed to one cause.",
+      "detail": null,
+      "url": null,
+      "author": {
+        "name": "Pauli",
+        "session_id": "01a0fc39-2b53-7e13-9f3d-03ea99168b30"
+      },
+      "origin": "agent",
+      "source_label": null,
+      "created_at": "2026-10-02T13:43:57+00:00",
+      "updated_at": "2026-10-02T13:43:57+00:00",
+      "resolved_at": null,
+      "resolution": null,
+      "status": "recorded"
+    },
+    {
       "id": "e-a149472ae58c",
       "kind": "result",
       "text": "Doncaster packet metadata shows one packet and unique PTS per reported frame, with a fixed 512-tick cadence at 25 fps. This resolves the packet-clock uncertainty; native-frame binding remains provisional pending window-only showinfo verification.",
@@ -326,11 +344,11 @@
       "status": "resolved"
     }
   ],
-  "revision": 21,
-  "latest_event_at": "2026-10-02T13:36:51+00:00",
+  "revision": 22,
+  "latest_event_at": "2026-10-02T13:43:57+00:00",
   "publication": {
     "site_url": "https://miskibin.github.io/simfactor-progress/",
-    "generation": "a5ca90008e5a5cb1a57dc02d"
+    "generation": "0f7b5ec6a0e6bd41dda01e61"
   },
-  "generated_at": "2026-10-02T13:36:59+00:00"
+  "generated_at": "2026-10-02T13:44:05+00:00"
 }
