@@ -2,6 +2,24 @@
   "schema_version": 1,
   "events": [
     {
+      "id": "e-18dbcbabb656",
+      "kind": "result",
+      "text": "Autoetykietowanie kolejowych obiektów na ortofoto nadal nie przeszło bramki pełnych obrysów.",
+      "detail": "W dwóch zamrożonych próbach (30 grup katalogowych i 16 komponentów ALS) obie oceny znalazły zero potwierdzonych pełnych, ciasnych kandydatów. Wskazanie obwiednią ALS zmniejszyło medianę pola bboxa z 756 do 70 pikseli, ale nie potwierdziło poprawności. Niepewności zachowano; etykiet nie przyjęto.",
+      "url": null,
+      "author": {
+        "name": "Zbadaj bboxy obiektów z ALS",
+        "session_id": "01a0f943-ccf9-7353-8088-5d46cc7ec466"
+      },
+      "origin": "agent",
+      "source_label": null,
+      "created_at": "2026-10-02T13:10:51+00:00",
+      "updated_at": "2026-10-02T13:10:51+00:00",
+      "resolved_at": null,
+      "resolution": null,
+      "status": "recorded"
+    },
+    {
       "id": "e-267cbb889632",
       "kind": "result",
       "text": "Kalibracja kamery obniża względne wahania głębi, ale próba nie potwierdza lepszej stabilności w metrach.",
@@ -254,11 +272,11 @@
       "status": "open"
     }
   ],
-  "revision": 16,
-  "latest_event_at": "2026-10-02T13:03:16+00:00",
+  "revision": 17,
+  "latest_event_at": "2026-10-02T13:10:51+00:00",
   "publication": {
     "site_url": "https://miskibin.github.io/simfactor-progress/",
-    "generation": "1214a4f1bca24c426da14d6c"
+    "generation": "db7644fbfd62619434c05693"
   },
-  "generated_at": "2026-10-02T13:03:25+00:00"
+  "generated_at": "2026-10-02T13:11:00+00:00"
 }
