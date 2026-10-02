@@ -5,7 +5,7 @@ title: Postępy SimFactor
 
 # Postępy SimFactor
 
-Istotne, potwierdzone ulepszenia algorytmu i stan planu. Aktualizacja: **9 września 2026**.
+Istotne, potwierdzone ulepszenia algorytmu i stan planu. Aktualizacja: **2 października 2026**.
 
 ## Plan
 
@@ -23,4 +23,4 @@ Istotne, potwierdzone ulepszenia algorytmu i stan planu. Aktualizacja: **9 wrze�
 
 ## Istotne zmiany algorytmu
 
-Brak nowych wpisów spełniających kryterium istotnej, potwierdzonej poprawy algorytmu.
+- **2 października 2026:** Nowy pomiar ruchu filmu poprawił pozycję na mapie na jednej nowej trasie: na trzech odłożonych kontrolach mediana błędu spadła z **70,71 do 18,00 m**, P90 z **360,09 do 24,15 m**, maksimum z **432,44 do 25,69 m** względem interpolacji czasu między tymi samymi dwiema kotwicami. Przyjęto ograniczoną funkcję eksperymentalną; niepewność jest niekalibrowana, pełny odbiór T1 pozostaje otwarty.
