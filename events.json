@@ -2,6 +2,24 @@
   "schema_version": 1,
   "events": [
     {
+      "id": "e-0cdb0ab284ae",
+      "kind": "result",
+      "text": "Dwie niezależne oceny nie uzgodniły obrysów masztów; test nie spełnia warunków kolejnego treningu.",
+      "detail": null,
+      "url": null,
+      "author": {
+        "name": "Oceń niezależnie generalizację detektora",
+        "session_id": "01a0fbd5-760d-76d0-9242-db5427057ee3"
+      },
+      "origin": "agent",
+      "source_label": null,
+      "created_at": "2026-10-02T23:04:08+00:00",
+      "updated_at": "2026-10-02T23:04:08+00:00",
+      "resolved_at": null,
+      "resolution": null,
+      "status": "recorded"
+    },
+    {
       "id": "e-e8120859c99c",
       "kind": "result",
       "text": "Słup jako zdarzenie minięcia zamiast śladu ramek: ta sama czułość, 6× mniej fałszywych rekordów; klasa z ramki nadal zła.",
@@ -668,11 +686,11 @@
       "status": "resolved"
     }
   ],
-  "revision": 42,
-  "latest_event_at": "2026-10-02T19:43:58+00:00",
+  "revision": 43,
+  "latest_event_at": "2026-10-02T23:04:08+00:00",
   "publication": {
     "site_url": "https://miskibin.github.io/simfactor-progress/",
-    "generation": "77904c83d718e6d846a5db27"
+    "generation": "ff6526ac40d1e3d80322066e"
   },
-  "generated_at": "2026-10-02T19:44:06+00:00"
+  "generated_at": "2026-10-02T23:04:17+00:00"
 }
