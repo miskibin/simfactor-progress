@@ -2,6 +2,24 @@
   "schema_version": 1,
   "events": [
     {
+      "id": "e-c45eee695a76",
+      "kind": "result",
+      "text": "Śledzenie punktów na podkładach nie daje jeszcze wiarygodnego pomiaru odstępów obiektów.",
+      "detail": "Zmiana detektora punktów nie przeszła kontroli w żadnym z czterech jadących fragmentów. W jednej badanej parze 94 z 96 utrzymanych punktów sugerują ruch wstecz; powtarzalny wygląd podkładów lub obrót obrazu wymagają rozstrzygnięcia. Te pomiary nie są używane jako kotwice lokalizacji.",
+      "url": null,
+      "author": {
+        "name": "Agent",
+        "session_id": "01a0fb40-2c5e-7261-8a8d-abcdd00157c3"
+      },
+      "origin": "agent",
+      "source_label": null,
+      "created_at": "2026-10-02T13:15:15+00:00",
+      "updated_at": "2026-10-02T13:15:15+00:00",
+      "resolved_at": null,
+      "resolution": null,
+      "status": "recorded"
+    },
+    {
       "id": "e-18dbcbabb656",
       "kind": "result",
       "text": "Autoetykietowanie kolejowych obiektów na ortofoto nadal nie przeszło bramki pełnych obrysów.",
@@ -272,11 +290,11 @@
       "status": "open"
     }
   ],
-  "revision": 17,
-  "latest_event_at": "2026-10-02T13:10:51+00:00",
+  "revision": 18,
+  "latest_event_at": "2026-10-02T13:15:15+00:00",
   "publication": {
     "site_url": "https://miskibin.github.io/simfactor-progress/",
-    "generation": "db7644fbfd62619434c05693"
+    "generation": "7f5bea3b03cf15a4d5e46287"
   },
-  "generated_at": "2026-10-02T13:11:00+00:00"
+  "generated_at": "2026-10-02T13:15:23+00:00"
 }
