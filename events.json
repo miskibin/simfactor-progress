@@ -2,6 +2,24 @@
   "schema_version": 1,
   "events": [
     {
+      "id": "e-ea2388179c32",
+      "kind": "result",
+      "text": "Ortofoto 2010 poprzedza otwarcie tunelu w 2011. Sprawdzamy pozniejsza epoke, zachowujac pierwotne oceny.",
+      "detail": null,
+      "url": null,
+      "author": {
+        "name": "Agent",
+        "session_id": "01a0fb40-2c5e-7261-8a8d-abcdd00157c3"
+      },
+      "origin": "agent",
+      "source_label": null,
+      "created_at": "2026-10-02T15:51:30+00:00",
+      "updated_at": "2026-10-02T15:51:30+00:00",
+      "resolved_at": null,
+      "resolution": null,
+      "status": "recorded"
+    },
+    {
       "id": "e-8c7a1e834a6c",
       "kind": "result",
       "text": "Ruch z pikseli: P90 rozbieżności krok1/3 z 0,000864 do 0,000030 1/px, 199/199 przedziałów. Pilot zgodności obrazu; dokładność mapy jeszcze bez odbioru.",
@@ -470,11 +488,11 @@
       "status": "resolved"
     }
   ],
-  "revision": 29,
-  "latest_event_at": "2026-10-02T14:45:48+00:00",
+  "revision": 30,
+  "latest_event_at": "2026-10-02T15:51:30+00:00",
   "publication": {
     "site_url": "https://miskibin.github.io/simfactor-progress/",
-    "generation": "04b6ed54d722d5d8567b55cd"
+    "generation": "5a1e1a433632353537299578"
   },
-  "generated_at": "2026-10-02T14:45:57+00:00"
+  "generated_at": "2026-10-02T15:51:39+00:00"
 }
