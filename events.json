@@ -2,6 +2,24 @@
   "schema_version": 1,
   "events": [
     {
+      "id": "e-6e67ee9b5638",
+      "kind": "ask",
+      "text": "Oceń 12 par obiektów na mapie; jeśli dowody nie wystarczą, wybierz Nie wiem.",
+      "detail": null,
+      "url": "codex://threads/01a0fcf3-f366-7fb2-91e0-045353551b86",
+      "author": {
+        "name": "Porównaj mapę obiektów z bazą SIMFACTOR",
+        "session_id": "01a0fcf3-f366-7fb2-91e0-045353551b86"
+      },
+      "origin": "agent",
+      "source_label": null,
+      "created_at": "2026-10-02T14:32:59+00:00",
+      "updated_at": "2026-10-02T14:32:59+00:00",
+      "resolved_at": null,
+      "resolution": null,
+      "status": "open"
+    },
+    {
       "id": "e-170ba12aaeee",
       "kind": "result",
       "text": "Oryginalny arkusz dał nowe piksele dla 22 lokalizacji; poprawność obrysów nadal pozostaje do sprawdzenia.",
@@ -434,11 +452,11 @@
       "status": "resolved"
     }
   ],
-  "revision": 27,
-  "latest_event_at": "2026-10-02T14:31:58+00:00",
+  "revision": 28,
+  "latest_event_at": "2026-10-02T14:32:59+00:00",
   "publication": {
     "site_url": "https://miskibin.github.io/simfactor-progress/",
-    "generation": "c6ed2e9ea57cd21772355546"
+    "generation": "662d006bb5ae97bfb37d339a"
   },
-  "generated_at": "2026-10-02T14:32:31+00:00"
+  "generated_at": "2026-10-02T14:35:37+00:00"
 }
