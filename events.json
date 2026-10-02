@@ -62,7 +62,7 @@
       "detail": "Sama kolejność nie zaakceptowała żadnej tożsamości. Dodanie klas daje 6 dopasowań zgodnych z referencją agenta oraz 2 bez rozstrzygniętej referencji. Wynik pochodzi z development; trwa sprawdzanie odporności na pominięcia i fałszywe zdarzenia.",
       "url": "codex://threads/01a0fb40-2c5e-7261-8a8d-abcdd00157c3",
       "author": {
-        "name": "Pracujesz w [lokalne źródło] jako samodzielny agent badawczo-inżynierski.\n\nMASZ AUTORYZACJĘ DO WYKO",
+        "name": "Agent",
         "session_id": "01a0fb40-2c5e-7261-8a8d-abcdd00157c3"
       },
       "origin": "imported",
@@ -128,11 +128,11 @@
       "status": "open"
     }
   ],
-  "revision": 8,
+  "revision": 9,
   "latest_event_at": "2026-10-02T12:16:57+00:00",
   "publication": {
     "site_url": "https://miskibin.github.io/simfactor-progress/",
-    "generation": "a9fc8afe41c5ff6ada8f5684"
+    "generation": "470137188af4a3405179ce88"
   },
-  "generated_at": "2026-10-02T12:17:39+00:00"
+  "generated_at": "2026-10-02T12:19:00+00:00"
 }
