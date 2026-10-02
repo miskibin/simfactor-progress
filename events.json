@@ -2,6 +2,24 @@
   "schema_version": 1,
   "events": [
     {
+      "id": "e-d8e89051d6ca",
+      "kind": "result",
+      "text": "Błąd zapisu zrzutów naruszył część atlasu. Porównanie wstrzymane; stare hashe i oceny zachowane, trwa audyt i ponowna akwizycja.",
+      "detail": null,
+      "url": null,
+      "author": {
+        "name": "Agent",
+        "session_id": "01a0fb40-2c5e-7261-8a8d-abcdd00157c3"
+      },
+      "origin": "agent",
+      "source_label": null,
+      "created_at": "2026-10-02T16:41:21+00:00",
+      "updated_at": "2026-10-02T16:41:21+00:00",
+      "resolved_at": null,
+      "resolution": null,
+      "status": "recorded"
+    },
+    {
       "id": "e-ac681074c831",
       "kind": "ask",
       "text": "Nowa ocena lokalizacji wymaga niezależnych kontroli. Potrzebuję zgody na uzgodnienie dostępności Trondheim z właścicielem odcinka; jego chronionych kontroli nie odczytam. Własny eksperyment trwa dalej.",
@@ -524,11 +542,11 @@
       "status": "resolved"
     }
   ],
-  "revision": 32,
-  "latest_event_at": "2026-10-02T16:27:33+00:00",
+  "revision": 33,
+  "latest_event_at": "2026-10-02T16:41:21+00:00",
   "publication": {
     "site_url": "https://miskibin.github.io/simfactor-progress/",
-    "generation": "8d51f8aa04e0a22d7e4b3f11"
+    "generation": "8c80da636d5c61aa65a74f3d"
   },
-  "generated_at": "2026-10-02T16:27:42+00:00"
+  "generated_at": "2026-10-02T16:41:29+00:00"
 }
