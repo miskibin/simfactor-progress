@@ -284,17 +284,17 @@
       "origin": "imported",
       "source_label": "Ocena geometrii MoGe",
       "created_at": "2026-10-02T09:14:38+00:00",
-      "updated_at": "2026-10-02T09:14:38+00:00",
-      "resolved_at": null,
+      "updated_at": "2026-10-02T13:15:28+00:00",
+      "resolved_at": "2026-10-02T13:15:28+00:00",
       "resolution": null,
-      "status": "open"
+      "status": "resolved"
     }
   ],
-  "revision": 18,
-  "latest_event_at": "2026-10-02T13:15:15+00:00",
+  "revision": 19,
+  "latest_event_at": "2026-10-02T13:15:28+00:00",
   "publication": {
     "site_url": "https://miskibin.github.io/simfactor-progress/",
-    "generation": "7f5bea3b03cf15a4d5e46287"
+    "generation": "656f619cb769467c3179d113"
   },
-  "generated_at": "2026-10-02T13:15:23+00:00"
+  "generated_at": "2026-10-02T13:16:24+00:00"
 }
