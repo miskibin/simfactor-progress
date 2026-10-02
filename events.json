@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "events": [
+    {
+      "id": "e-d9da0ec89092",
+      "kind": "result",
+      "text": "Kalibracja kamery poprawia głębokość MoGe, lecz nie kontury cienkich słupów.",
+      "detail": "Podanie pola widzenia około 30° zmniejszyło medianę błędu na dwóch pobliskich zwrotach LiDAR z 62% do 17% (MoGe-2) i z 55% do 13% (MoGe-3). Kontury pozostały 14/38 i 12/38. Dwa punkty nie potwierdzają ogólnej dokładności 3D.",
+      "url": "codex://threads/01a0fbb0-8777-7c90-88e4-2ee39ed6fd93",
+      "author": {
+        "name": "Sprawdź geometrię MoGe-3 na wideo kolejowym",
+        "session_id": "01a0fbb0-8777-7c90-88e4-2ee39ed6fd93"
+      },
+      "origin": "imported",
+      "source_label": "Ocena geometrii MoGe",
+      "created_at": "2026-10-02T12:16:57+00:00",
+      "updated_at": "2026-10-02T12:16:57+00:00",
+      "resolved_at": null,
+      "resolution": null,
+      "status": "recorded"
+    },
+    {
+      "id": "e-5b6cf2c08dde",
+      "kind": "result",
+      "text": "Filtr nakładających się klas odrzucony: usuwa również poprawne detekcje.",
+      "detail": "Dla v12 trafienia w spisie referencyjnym agenta spadły z 17 do 9. Na pięciu ramkach wybranych przez użytkownika wszystkie trzy modele trafiają poprawną klasę przy IoU ≥0,5; różnice zależą także od definicji obrysu. To diagnostyka po ocenie, bez promocji modelu.",
+      "url": "codex://threads/01a0fbd5-760d-76d0-9242-db5427057ee3",
+      "author": {
+        "name": "Oceń niezależnie generalizację detektora",
+        "session_id": "01a0fbd5-760d-76d0-9242-db5427057ee3"
+      },
+      "origin": "imported",
+      "source_label": "Niezależna ocena detektora",
+      "created_at": "2026-10-02T11:55:55+00:00",
+      "updated_at": "2026-10-02T11:55:55+00:00",
+      "resolved_at": null,
+      "resolution": null,
+      "status": "recorded"
+    },
+    {
+      "id": "e-59684446b6ac",
+      "kind": "ask",
+      "text": "Rozstrzygnij 9 kart obrysów do niezależnej oceny detektora.",
+      "detail": "Historyczna prośba: odpowiedzi zostały już zapisane i wykorzystane do dalszej diagnostyki.",
+      "url": "codex://threads/01a0fbd5-760d-76d0-9242-db5427057ee3",
+      "author": {
+        "name": "Oceń niezależnie generalizację detektora",
+        "session_id": "01a0fbd5-760d-76d0-9242-db5427057ee3"
+      },
+      "origin": "imported",
+      "source_label": "Niezależna ocena detektora",
+      "created_at": "2026-10-02T11:55:55+00:00",
+      "updated_at": "2026-10-02T11:55:55+00:00",
+      "resolved_at": "2026-10-02T11:55:55+00:00",
+      "resolution": "Użytkownik odpowiedział na 9/9 kart. Pięć preferencji użyto z zastrzeżeniami; trzy niejednoznaczne przypadki pozostały nierozstrzygnięte, a jedna ramka wymaga poprawy.",
+      "status": "resolved"
+    },
+    {
+      "id": "e-9bf10814a3f0",
+      "kind": "result",
+      "text": "Klasy obiektów pomagają dopasować sekwencję bez używania VO.",
+      "detail": "Sama kolejność nie zaakceptowała żadnej tożsamości. Dodanie klas daje 6 dopasowań zgodnych z referencją agenta oraz 2 bez rozstrzygniętej referencji. Wynik pochodzi z development; trwa sprawdzanie odporności na pominięcia i fałszywe zdarzenia.",
+      "url": "codex://threads/01a0fb40-2c5e-7261-8a8d-abcdd00157c3",
+      "author": {
+        "name": "Pracujesz w [lokalne źródło] jako samodzielny agent badawczo-inżynierski.\n\nMASZ AUTORYZACJĘ DO WYKO",
+        "session_id": "01a0fb40-2c5e-7261-8a8d-abcdd00157c3"
+      },
+      "origin": "imported",
+      "source_label": "Dopasowanie sekwencji",
+      "created_at": "2026-10-02T11:51:13+00:00",
+      "updated_at": "2026-10-02T11:51:13+00:00",
+      "resolved_at": null,
+      "resolution": null,
+      "status": "recorded"
+    },
+    {
+      "id": "e-49a2124faf5b",
+      "kind": "result",
+      "text": "Więcej etykiet nie poprawiło detektora v13 w obecnym porównaniu.",
+      "detail": "Wśród 25 pierwszych propozycji liczba użytecznych obrysów spadła z 14 do 10 względem poprzedniego wariantu warm-start. Niezależne przeliczenie potwierdziło wynik. To częściowa, wcześniej używana referencja; brak podstaw do promocji.",
+      "url": "codex://threads/01a0f2ee-672c-7e82-a241-47568984f846",
+      "author": {
+        "name": "ETYKIETY Z SIMFACTOR",
+        "session_id": "01a0f2ee-672c-7e82-a241-47568984f846"
+      },
+      "origin": "imported",
+      "source_label": "Rozwój zbioru i detektora",
+      "created_at": "2026-10-02T11:28:54+00:00",
+      "updated_at": "2026-10-02T11:28:54+00:00",
+      "resolved_at": null,
+      "resolution": null,
+      "status": "recorded"
+    },
+    {
+      "id": "e-f2b0762310ff",
+      "kind": "ask",
+      "text": "Potrzebny oficjalny checkpoint BEV-ODOM2: ścieżka do wag albo bezpośredni link.",
+      "detail": "Pobranie z oficjalnego Baidu zwraca błąd. Bez checkpointu nie można wykonać rzeczywistej inferencji ani ocenić poprawy VO. Szczegóły i pytanie są w prywatnej sesji.",
+      "url": "codex://threads/01a0fbd5-8159-7483-a4d8-3c0e563b2861",
+      "author": {
+        "name": "Uruchom i oceń BEV-ODOM2 na kamerze…",
+        "session_id": "01a0fbd5-8159-7483-a4d8-3c0e563b2861"
+      },
+      "origin": "imported",
+      "source_label": "Ocena BEV-ODOM2",
+      "created_at": "2026-10-02T10:24:30+00:00",
+      "updated_at": "2026-10-02T10:24:30+00:00",
+      "resolved_at": null,
+      "resolution": null,
+      "status": "open"
+    },
+    {
+      "id": "e-fbefea1e3cf4",
+      "kind": "ask",
+      "text": "Potwierdź 16 krótkich kart konturów słupów w ocenie MoGe.",
+      "detail": "Ocena człowieka ma potwierdzić sekcje widoczne na źródłowych zdjęciach. Nie ma jeszcze zapisanych odpowiedzi; bez nich bramka geometrii cienkich obiektów pozostaje otwarta. Chroniony link jest w sesji.",
+      "url": "codex://threads/01a0fbb0-8777-7c90-88e4-2ee39ed6fd93",
+      "author": {
+        "name": "Sprawdź geometrię MoGe-3 na wideo kolejowym",
+        "session_id": "01a0fbb0-8777-7c90-88e4-2ee39ed6fd93"
+      },
+      "origin": "imported",
+      "source_label": "Ocena geometrii MoGe",
+      "created_at": "2026-10-02T09:14:38+00:00",
+      "updated_at": "2026-10-02T09:14:38+00:00",
+      "resolved_at": null,
+      "resolution": null,
+      "status": "open"
+    }
+  ],
+  "revision": 8,
+  "latest_event_at": "2026-10-02T12:16:57+00:00",
+  "publication": {
+    "site_url": "https://miskibin.github.io/simfactor-progress/",
+    "generation": "a9fc8afe41c5ff6ada8f5684"
+  },
+  "generated_at": "2026-10-02T12:17:39+00:00"
+}

@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#123d35">
+    <meta name="description" content="Pytania, ważne wyniki i dotychczasowe osiągnięcia projektu SimFactor.">
+    <title>Wiadomości z projektu · SimFactor</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Przejdź do treści</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="./" aria-label="SimFactor — strona główna">
+          <span class="brand-mark" aria-hidden="true">S</span>
+          <span class="brand-name">SimFactor</span>
+        </a>
+        <span class="header-note">Wiadomości z projektu</span>
+      </div>
+    </header>
+
+    <main id="main" class="page-shell">
+      <section class="intro" aria-labelledby="page-title">
+        <p class="eyebrow">DLA CIEBIE</p>
+        <h1 id="page-title">Co nowego?</h1>
+        <p class="intro-copy">Pytania, na które czekamy, i wyniki warte uwagi.</p>
+      </section>
+
+      <section id="freshness" class="freshness" data-state="loading" aria-live="polite" aria-atomic="true">
+        <span class="freshness-icon" aria-hidden="true"></span>
+        <div class="freshness-copy">
+          <p id="freshness-title" class="freshness-title">Sprawdzam najnowsze informacje…</p>
+          <p id="freshness-time" class="freshness-time"></p>
+        </div>
+        <button id="refresh-button" class="refresh-button" type="button" aria-label="Odśwież informacje" title="Odśwież">
+          <span aria-hidden="true">↻</span>
+        </button>
+      </section>
+
+      <nav class="filters" aria-label="Filtruj wiadomości">
+        <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">Wszystko</button>
+        <button class="filter-button" type="button" data-filter="asks" aria-pressed="false">Pytania</button>
+        <button class="filter-button" type="button" data-filter="results" aria-pressed="false">Wyniki</button>
+        <button class="filter-button" type="button" data-filter="history" aria-pressed="false">Historia</button>
+      </nav>
+
+      <div id="events-error" class="load-message load-message-error" role="alert" hidden>
+        <p>Nie udało się pobrać bieżących wpisów. Sprawdź połączenie i spróbuj ponownie.</p>
+        <button class="text-button" type="button" data-retry>Spróbuj ponownie</button>
+      </div>
+
+      <section id="asks-section" class="feed-section" aria-labelledby="asks-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">TWOJA KOLEJ</p>
+            <h2 id="asks-title">Czeka na Ciebie</h2>
+          </div>
+          <span id="asks-count" class="count-badge" aria-label="Liczba otwartych pytań">—</span>
+        </div>
+        <div id="open-asks" class="event-list" aria-live="polite">
+          <p class="empty-state">Ładuję pytania…</p>
+        </div>
+      </section>
+
+      <section id="results-section" class="feed-section" aria-labelledby="results-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">POSTĘP</p>
+            <h2 id="results-title">Ważne wyniki</h2>
+          </div>
+          <span id="results-count" class="count-badge" aria-label="Liczba ważnych wyników">—</span>
+        </div>
+        <div id="results-list" class="event-list" aria-live="polite">
+          <p class="empty-state">Ładuję wyniki…</p>
+        </div>
+      </section>
+
+      <section id="history-section" class="feed-section history-section" aria-labelledby="history-title">
+        <details id="history-details" class="history-disclosure">
+          <summary>
+            <span>
+              <span class="eyebrow">ZAMKNIĘTE PYTANIA</span>
+              <span id="history-title" class="history-title">Historia</span>
+            </span>
+            <span id="history-count" class="count-badge">—</span>
+          </summary>
+          <div id="resolved-asks" class="event-list history-list">
+            <p class="empty-state">Ładuję historię…</p>
+          </div>
+        </details>
+      </section>
+
+      <section id="archive-section" class="archive-section" aria-labelledby="archive-heading">
+        <details id="archive-details" class="archive-disclosure">
+          <summary>
+            <span class="archive-mark" aria-hidden="true">✦</span>
+            <span class="archive-summary-text">
+              <span id="archive-heading">Dotychczasowe osiągnięcia</span>
+              <span id="archive-updated" class="archive-updated"></span>
+            </span>
+            <span class="disclosure-chevron" aria-hidden="true">⌄</span>
+          </summary>
+          <div id="archive-content" class="archive-content">
+            <p class="empty-state">Ładuję archiwum…</p>
+          </div>
+        </details>
+      </section>
+
+      <footer class="site-footer">
+        <span>SimFactor</span>
+        <span>Wiadomości projektu</span>
+      </footer>
+    </main>
+  </body>
+</html>
