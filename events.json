@@ -2,6 +2,24 @@
   "schema_version": 1,
   "events": [
     {
+      "id": "e-9bcc1ce2dae7",
+      "kind": "result",
+      "text": "Ocena człowieka potwierdziła tylko 2 z 16 proponowanych obrysów; porównanie konturów wymaga lepszych referencji.",
+      "detail": "Zapisano komplet 16 odpowiedzi: 2 akceptacje, 12 odrzuceń i 2 niepewne. Na zaakceptowanych kartach MoGe2 i MoGe3 mają tyle samo trafień granic. Niepewne i odrzucone propozycje nie są potwierdzoną referencją. Nie dopuszczamy zmiany produkcyjnej na tej podstawie.",
+      "url": null,
+      "author": {
+        "name": "Sprawdź geometrię MoGe-3 na wideo kolejowym",
+        "session_id": "01a0fbb0-8777-7c90-88e4-2ee39ed6fd93"
+      },
+      "origin": "agent",
+      "source_label": "Potwierdzona ocena konturów",
+      "created_at": "2026-10-02T13:19:24+00:00",
+      "updated_at": "2026-10-02T13:19:24+00:00",
+      "resolved_at": null,
+      "resolution": null,
+      "status": "recorded"
+    },
+    {
       "id": "e-c45eee695a76",
       "kind": "result",
       "text": "Śledzenie punktów na podkładach nie daje jeszcze wiarygodnego pomiaru odstępów obiektów.",
@@ -290,11 +308,11 @@
       "status": "resolved"
     }
   ],
-  "revision": 19,
-  "latest_event_at": "2026-10-02T13:15:28+00:00",
+  "revision": 20,
+  "latest_event_at": "2026-10-02T13:19:24+00:00",
   "publication": {
     "site_url": "https://miskibin.github.io/simfactor-progress/",
-    "generation": "656f619cb769467c3179d113"
+    "generation": "399720c1db36fcafda6f54aa"
   },
-  "generated_at": "2026-10-02T13:16:24+00:00"
+  "generated_at": "2026-10-02T13:19:32+00:00"
 }
