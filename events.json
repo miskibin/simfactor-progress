@@ -2,6 +2,24 @@
   "schema_version": 1,
   "events": [
     {
+      "id": "e-33e58d2f3876",
+      "kind": "result",
+      "text": "Fotometria poprawiła pilot, ale pełny film ma 178/40458 niejednoznacznych par. Transfer UK pogorszył wynik; fuzja czasowa nie usunęła problemu. Brak wdrożenia tych wariantów; sprawdzamy wspólne dopasowanie różnych odstępów klatek.",
+      "detail": null,
+      "url": null,
+      "author": {
+        "name": "Popraw dopasowanie VO i landmarków",
+        "session_id": "01a0f955-1d10-7152-9ae2-59639678555a"
+      },
+      "origin": "agent",
+      "source_label": null,
+      "created_at": "2026-10-02T16:13:12+00:00",
+      "updated_at": "2026-10-02T16:13:12+00:00",
+      "resolved_at": null,
+      "resolution": null,
+      "status": "recorded"
+    },
+    {
       "id": "e-ea2388179c32",
       "kind": "result",
       "text": "Ortofoto 2010 poprzedza otwarcie tunelu w 2011. Sprawdzamy pozniejsza epoke, zachowujac pierwotne oceny.",
@@ -488,11 +506,11 @@
       "status": "resolved"
     }
   ],
-  "revision": 30,
-  "latest_event_at": "2026-10-02T15:51:30+00:00",
+  "revision": 31,
+  "latest_event_at": "2026-10-02T16:13:12+00:00",
   "publication": {
     "site_url": "https://miskibin.github.io/simfactor-progress/",
-    "generation": "5a1e1a433632353537299578"
+    "generation": "619f6782e83c8d0717afbdff"
   },
-  "generated_at": "2026-10-02T15:51:39+00:00"
+  "generated_at": "2026-10-02T16:13:21+00:00"
 }
