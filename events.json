@@ -2,6 +2,24 @@
   "schema_version": 1,
   "events": [
     {
+      "id": "e-c312b5e61895",
+      "kind": "result",
+      "text": "Podwojenie budżetu obrazu nie poprawiło konturów MoGe na ocenianej próbie.",
+      "detail": "Na 19 przekrojach MoGe-3 nadal trafił 12 z 38 granic; MoGe-2 zmienił się z 14 na 13. Błąd przy dwóch pobliskich zwrotach LiDAR lekko wzrósł w obu modelach. Nie zwiększamy domyślnego budżetu; badamy stabilność w czasie. To mała próba rozwojowa, bez podstawy do wdrożenia.",
+      "url": null,
+      "author": {
+        "name": "Sprawdź geometrię MoGe-3 na wideo kolejowym",
+        "session_id": "01a0fbb0-8777-7c90-88e4-2ee39ed6fd93"
+      },
+      "origin": "agent",
+      "source_label": null,
+      "created_at": "2026-10-02T12:43:02+00:00",
+      "updated_at": "2026-10-02T12:43:02+00:00",
+      "resolved_at": null,
+      "resolution": null,
+      "status": "recorded"
+    },
+    {
       "id": "e-6573e764b3d5",
       "kind": "result",
       "text": "Sprawdzenie rzeczywistego treningu wyklucza brak przypisania słupów; potrzebne są bardziej różnorodne etykiety.",
@@ -200,11 +218,11 @@
       "status": "open"
     }
   ],
-  "revision": 13,
-  "latest_event_at": "2026-10-02T12:42:11+00:00",
+  "revision": 14,
+  "latest_event_at": "2026-10-02T12:43:02+00:00",
   "publication": {
     "site_url": "https://miskibin.github.io/simfactor-progress/",
-    "generation": "ad092dac28ad6107ecdf59b9"
+    "generation": "993ad53952ab056988ef7f12"
   },
-  "generated_at": "2026-10-02T12:42:20+00:00"
+  "generated_at": "2026-10-02T12:43:11+00:00"
 }
