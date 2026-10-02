@@ -92,6 +92,24 @@
       "status": "recorded"
     },
     {
+      "id": "e-5d4474cc269f",
+      "kind": "result",
+      "text": "Pomiar ruchu filmu poprawił pozycję na nowej trasie: mediana błędu 70,71 → 18,00 m.",
+      "detail": "Na trzech odłożonych kontrolach P90 spadł 360,09 → 24,15 m, a maksimum 432,44 → 25,69 m względem interpolacji czasu między tymi samymi dwiema kotwicami. Przyjęto ograniczoną funkcję eksperymentalną. Niepewność pozostaje nieskalibrowana; pełny odbiór T1 jest otwarty.",
+      "url": "codex://threads/01a0f955-1d10-7152-9ae2-59639678555a",
+      "author": {
+        "name": "Popraw dopasowanie VO i landmarków",
+        "session_id": "01a0f955-1d10-7152-9ae2-59639678555a"
+      },
+      "origin": "imported",
+      "source_label": "Przyjęty wynik lokalizacji",
+      "created_at": "2026-10-02T10:37:11+00:00",
+      "updated_at": "2026-10-02T10:37:11+00:00",
+      "resolved_at": null,
+      "resolution": null,
+      "status": "recorded"
+    },
+    {
       "id": "e-f2b0762310ff",
       "kind": "ask",
       "text": "Potrzebny oficjalny checkpoint BEV-ODOM2: ścieżka do wag albo bezpośredni link.",
@@ -128,11 +146,11 @@
       "status": "open"
     }
   ],
-  "revision": 9,
+  "revision": 10,
   "latest_event_at": "2026-10-02T12:16:57+00:00",
   "publication": {
     "site_url": "https://miskibin.github.io/simfactor-progress/",
-    "generation": "470137188af4a3405179ce88"
+    "generation": "6bc3305515c6cd1e753fbfed"
   },
-  "generated_at": "2026-10-02T12:19:00+00:00"
+  "generated_at": "2026-10-02T12:25:00+00:00"
 }
