@@ -2,6 +2,24 @@
   "schema_version": 1,
   "events": [
     {
+      "id": "e-170ba12aaeee",
+      "kind": "result",
+      "text": "Oryginalny arkusz dał nowe piksele dla 22 lokalizacji; poprawność obrysów nadal pozostaje do sprawdzenia.",
+      "detail": null,
+      "url": null,
+      "author": {
+        "name": "Zbadaj bboxy obiektów z ALS",
+        "session_id": "01a0f943-ccf9-7353-8088-5d46cc7ec466"
+      },
+      "origin": "agent",
+      "source_label": null,
+      "created_at": "2026-10-02T14:31:58+00:00",
+      "updated_at": "2026-10-02T14:31:58+00:00",
+      "resolved_at": null,
+      "resolution": null,
+      "status": "recorded"
+    },
+    {
       "id": "e-f8a7309a7f9c",
       "kind": "result",
       "text": "Na znanych klatkach wycinki poprawiły obrys słupa, ale pogorszyły obrys sygnału i dodały fałszywe wykrycia; tej wersji nie przyjmujemy.",
@@ -416,11 +434,11 @@
       "status": "resolved"
     }
   ],
-  "revision": 26,
-  "latest_event_at": "2026-10-02T14:29:24+00:00",
+  "revision": 27,
+  "latest_event_at": "2026-10-02T14:31:58+00:00",
   "publication": {
     "site_url": "https://miskibin.github.io/simfactor-progress/",
-    "generation": "d6af6b124618bf0a41739568"
+    "generation": "c6ed2e9ea57cd21772355546"
   },
-  "generated_at": "2026-10-02T14:29:55+00:00"
+  "generated_at": "2026-10-02T14:32:31+00:00"
 }
