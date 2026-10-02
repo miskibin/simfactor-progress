@@ -2,6 +2,24 @@
   "schema_version": 1,
   "events": [
     {
+      "id": "e-0c6ef9b62650",
+      "kind": "result",
+      "text": "Warm-start v12/v13 nadal mylą 3/3 masztów z lampami; na 2 pustych scenach FP rośnie z 13 do 21/24. Brak awansu modeli.",
+      "detail": null,
+      "url": null,
+      "author": {
+        "name": "Oceń niezależnie generalizację detektora",
+        "session_id": "01a0fbd5-760d-76d0-9242-db5427057ee3"
+      },
+      "origin": "agent",
+      "source_label": null,
+      "created_at": "2026-10-02T14:07:19+00:00",
+      "updated_at": "2026-10-02T14:07:19+00:00",
+      "resolved_at": null,
+      "resolution": null,
+      "status": "recorded"
+    },
+    {
       "id": "e-6fcbe1ab27d3",
       "kind": "result",
       "text": "Source-only railbed warp probe found an orientation/displacement ambiguity in one window; 11 of 16 frozen profiles refused on common-pixel support. Larger-motion and non-sleeper comparisons remain untested, so the negative feature tracks cannot yet be attributed to one cause.",
@@ -344,11 +362,11 @@
       "status": "resolved"
     }
   ],
-  "revision": 22,
-  "latest_event_at": "2026-10-02T13:43:57+00:00",
+  "revision": 23,
+  "latest_event_at": "2026-10-02T14:07:19+00:00",
   "publication": {
     "site_url": "https://miskibin.github.io/simfactor-progress/",
-    "generation": "0f7b5ec6a0e6bd41dda01e61"
+    "generation": "dc47d4780d864e0524bb70ff"
   },
-  "generated_at": "2026-10-02T13:44:05+00:00"
+  "generated_at": "2026-10-02T14:07:28+00:00"
 }
