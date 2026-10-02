@@ -2,6 +2,24 @@
   "schema_version": 1,
   "events": [
     {
+      "id": "e-6573e764b3d5",
+      "kind": "result",
+      "text": "Sprawdzenie rzeczywistego treningu wyklucza brak przypisania słupów; potrzebne są bardziej różnorodne etykiety.",
+      "detail": "Wszystkie 134 oznaczone trzony otrzymują nadzór w obu porównanych modelach, ale 121 pochodzi z jednej trasy. Rozpoczęliśmy niezależny pomiar słupów na nowych klatkach. To diagnoza danych treningowych, bez potwierdzonej poprawy jakości modelu.",
+      "url": "codex://threads/01a0f2ee-672c-7e82-a241-47568984f846",
+      "author": {
+        "name": "ETYKIETY Z SIMFACTOR",
+        "session_id": "01a0f2ee-672c-7e82-a241-47568984f846"
+      },
+      "origin": "agent",
+      "source_label": null,
+      "created_at": "2026-10-02T12:42:11+00:00",
+      "updated_at": "2026-10-02T12:42:11+00:00",
+      "resolved_at": null,
+      "resolution": null,
+      "status": "recorded"
+    },
+    {
       "id": "e-8d71db3a319f",
       "kind": "result",
       "text": "Automat dopasowania obrazu nie przeszedł bramki jakości. W odłożonym teście 598 par hybryda poprawiła medianę i maksimum, ale P90 wzrosło z 11,608 do 11,658 px. Zachowujemy sprawdzony wariant lokalizacji; lepsze dopasowanie obrazu nie potwierdza jeszcze metrów ani chwili minięcia.",
@@ -182,11 +200,11 @@
       "status": "open"
     }
   ],
-  "revision": 12,
-  "latest_event_at": "2026-10-02T12:30:55+00:00",
+  "revision": 13,
+  "latest_event_at": "2026-10-02T12:42:11+00:00",
   "publication": {
     "site_url": "https://miskibin.github.io/simfactor-progress/",
-    "generation": "e946bc978349dcb4065c7803"
+    "generation": "ad092dac28ad6107ecdf59b9"
   },
-  "generated_at": "2026-10-02T12:31:04+00:00"
+  "generated_at": "2026-10-02T12:42:20+00:00"
 }
