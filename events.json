@@ -2,6 +2,24 @@
   "schema_version": 1,
   "events": [
     {
+      "id": "e-8a61f2b31933",
+      "kind": "result",
+      "text": "Dwie niezależne oceny zgadzają się na dokładne granice tylko 2/9 obiektów. Pozostałych ramek nie przyjmujemy jako ground truth.",
+      "detail": null,
+      "url": null,
+      "author": {
+        "name": "Oceń niezależnie generalizację detektora",
+        "session_id": "01a0fbd5-760d-76d0-9242-db5427057ee3"
+      },
+      "origin": "agent",
+      "source_label": null,
+      "created_at": "2026-10-02T14:27:41+00:00",
+      "updated_at": "2026-10-02T14:27:41+00:00",
+      "resolved_at": null,
+      "resolution": null,
+      "status": "recorded"
+    },
+    {
       "id": "e-6a9b245e32c3",
       "kind": "result",
       "text": "Prosta sygnatura przecięć pogorszyła dopasowanie bramek w małej próbie; brak niezależnego potwierdzenia lokalizacji.",
@@ -380,11 +398,11 @@
       "status": "resolved"
     }
   ],
-  "revision": 24,
-  "latest_event_at": "2026-10-02T14:23:07+00:00",
+  "revision": 25,
+  "latest_event_at": "2026-10-02T14:27:41+00:00",
   "publication": {
     "site_url": "https://miskibin.github.io/simfactor-progress/",
-    "generation": "7b150fce542cf78a2044ee2b"
+    "generation": "5a9015136441ec2333e72d8e"
   },
-  "generated_at": "2026-10-02T14:23:16+00:00"
+  "generated_at": "2026-10-02T14:27:49+00:00"
 }
