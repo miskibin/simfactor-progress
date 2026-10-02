@@ -2,6 +2,24 @@
   "schema_version": 1,
   "events": [
     {
+      "id": "e-267cbb889632",
+      "kind": "result",
+      "text": "Kalibracja kamery obniża względne wahania głębi, ale próba nie potwierdza lepszej stabilności w metrach.",
+      "detail": "Na12 parach klatek znana kalibracja zmniejszyła względny rozrzut mniej więcej o połowę; rozrzut zmian w metrach pozostał praktycznie taki sam. Porównanie MoGe3 zMoGe2 na5 sekwencjach nie daje pewnego zysku w stabilności fizycznej. Dalsza ocena wymaga poprawnych referencji i uwzględnienia ruchu kamery.",
+      "url": null,
+      "author": {
+        "name": "Sprawdź geometrię MoGe-3 na wideo kolejowym",
+        "session_id": "01a0fbb0-8777-7c90-88e4-2ee39ed6fd93"
+      },
+      "origin": "agent",
+      "source_label": "Badanie głębi i stabilności obrazu",
+      "created_at": "2026-10-02T13:03:16+00:00",
+      "updated_at": "2026-10-02T13:03:16+00:00",
+      "resolved_at": null,
+      "resolution": null,
+      "status": "recorded"
+    },
+    {
       "id": "e-c0ccd2ccfa2a",
       "kind": "result",
       "text": "Ocena człowieka potwierdziła błędną klasę lampa w trzech miejscach oznaczonych jako maszty trakcyjne.",
@@ -236,11 +254,11 @@
       "status": "open"
     }
   ],
-  "revision": 15,
-  "latest_event_at": "2026-10-02T12:58:11+00:00",
+  "revision": 16,
+  "latest_event_at": "2026-10-02T13:03:16+00:00",
   "publication": {
     "site_url": "https://miskibin.github.io/simfactor-progress/",
-    "generation": "0e41efbee0a6ed59fec41d42"
+    "generation": "1214a4f1bca24c426da14d6c"
   },
-  "generated_at": "2026-10-02T12:58:19+00:00"
+  "generated_at": "2026-10-02T13:03:25+00:00"
 }
