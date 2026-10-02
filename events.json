@@ -2,6 +2,24 @@
   "schema_version": 1,
   "events": [
     {
+      "id": "e-ac681074c831",
+      "kind": "ask",
+      "text": "Nowa ocena lokalizacji wymaga niezależnych kontroli. Potrzebuję zgody na uzgodnienie dostępności Trondheim z właścicielem odcinka; jego chronionych kontroli nie odczytam. Własny eksperyment trwa dalej.",
+      "detail": null,
+      "url": "codex://threads/01a0f955-1d10-7152-9ae2-59639678555a",
+      "author": {
+        "name": "Popraw dopasowanie VO i landmarków",
+        "session_id": "01a0f955-1d10-7152-9ae2-59639678555a"
+      },
+      "origin": "agent",
+      "source_label": null,
+      "created_at": "2026-10-02T16:27:33+00:00",
+      "updated_at": "2026-10-02T16:27:33+00:00",
+      "resolved_at": null,
+      "resolution": null,
+      "status": "open"
+    },
+    {
       "id": "e-33e58d2f3876",
       "kind": "result",
       "text": "Fotometria poprawiła pilot, ale pełny film ma 178/40458 niejednoznacznych par. Transfer UK pogorszył wynik; fuzja czasowa nie usunęła problemu. Brak wdrożenia tych wariantów; sprawdzamy wspólne dopasowanie różnych odstępów klatek.",
@@ -506,11 +524,11 @@
       "status": "resolved"
     }
   ],
-  "revision": 31,
-  "latest_event_at": "2026-10-02T16:13:12+00:00",
+  "revision": 32,
+  "latest_event_at": "2026-10-02T16:27:33+00:00",
   "publication": {
     "site_url": "https://miskibin.github.io/simfactor-progress/",
-    "generation": "619f6782e83c8d0717afbdff"
+    "generation": "8d51f8aa04e0a22d7e4b3f11"
   },
-  "generated_at": "2026-10-02T16:13:21+00:00"
+  "generated_at": "2026-10-02T16:27:42+00:00"
 }
