@@ -158,10 +158,10 @@
       "origin": "agent",
       "source_label": null,
       "created_at": "2026-10-02T14:32:59+00:00",
-      "updated_at": "2026-10-02T14:32:59+00:00",
-      "resolved_at": null,
-      "resolution": null,
-      "status": "open"
+      "updated_at": "2026-10-02T17:29:15+00:00",
+      "resolved_at": "2026-10-02T17:29:15+00:00",
+      "resolution": "Prośbę zastąpiono oceną agentową; użytkownik nie udzielił odpowiedzi.",
+      "status": "resolved"
     },
     {
       "id": "e-170ba12aaeee",
@@ -596,11 +596,11 @@
       "status": "resolved"
     }
   ],
-  "revision": 37,
-  "latest_event_at": "2026-10-02T17:17:45+00:00",
+  "revision": 38,
+  "latest_event_at": "2026-10-02T17:29:15+00:00",
   "publication": {
     "site_url": "https://miskibin.github.io/simfactor-progress/",
-    "generation": "8b18121225273cd3c98ebb15"
+    "generation": "1f1d1f89356b014fa39dde30"
   },
-  "generated_at": "2026-10-02T17:17:54+00:00"
+  "generated_at": "2026-10-02T17:29:24+00:00"
 }
