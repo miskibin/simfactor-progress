@@ -2,6 +2,24 @@
   "schema_version": 1,
   "events": [
     {
+      "id": "e-6a9b245e32c3",
+      "kind": "result",
+      "text": "Prosta sygnatura przecięć pogorszyła dopasowanie bramek w małej próbie; brak niezależnego potwierdzenia lokalizacji.",
+      "detail": null,
+      "url": null,
+      "author": {
+        "name": "Sprawdź lokalizację po układzie sieci…",
+        "session_id": "01a0fce5-c8b1-7c53-840e-fd3f7948895a"
+      },
+      "origin": "agent",
+      "source_label": null,
+      "created_at": "2026-10-02T14:23:07+00:00",
+      "updated_at": "2026-10-02T14:23:07+00:00",
+      "resolved_at": null,
+      "resolution": null,
+      "status": "recorded"
+    },
+    {
       "id": "e-0c6ef9b62650",
       "kind": "result",
       "text": "Warm-start v12/v13 nadal mylą 3/3 masztów z lampami; na 2 pustych scenach FP rośnie z 13 do 21/24. Brak awansu modeli.",
@@ -362,11 +380,11 @@
       "status": "resolved"
     }
   ],
-  "revision": 23,
-  "latest_event_at": "2026-10-02T14:07:19+00:00",
+  "revision": 24,
+  "latest_event_at": "2026-10-02T14:23:07+00:00",
   "publication": {
     "site_url": "https://miskibin.github.io/simfactor-progress/",
-    "generation": "dc47d4780d864e0524bb70ff"
+    "generation": "7b150fce542cf78a2044ee2b"
   },
-  "generated_at": "2026-10-02T14:07:28+00:00"
+  "generated_at": "2026-10-02T14:23:16+00:00"
 }
