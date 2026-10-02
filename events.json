@@ -2,6 +2,24 @@
   "schema_version": 1,
   "events": [
     {
+      "id": "e-8c7a1e834a6c",
+      "kind": "result",
+      "text": "Ruch z pikseli: P90 rozbieżności krok1/3 z 0,000864 do 0,000030 1/px, 199/199 przedziałów. Pilot zgodności obrazu; dokładność mapy jeszcze bez odbioru.",
+      "detail": null,
+      "url": null,
+      "author": {
+        "name": "Popraw dopasowanie VO i landmarków",
+        "session_id": "01a0f955-1d10-7152-9ae2-59639678555a"
+      },
+      "origin": "agent",
+      "source_label": null,
+      "created_at": "2026-10-02T14:45:48+00:00",
+      "updated_at": "2026-10-02T14:45:48+00:00",
+      "resolved_at": null,
+      "resolution": null,
+      "status": "recorded"
+    },
+    {
       "id": "e-6e67ee9b5638",
       "kind": "ask",
       "text": "Oceń 12 par obiektów na mapie; jeśli dowody nie wystarczą, wybierz Nie wiem.",
@@ -452,11 +470,11 @@
       "status": "resolved"
     }
   ],
-  "revision": 28,
-  "latest_event_at": "2026-10-02T14:32:59+00:00",
+  "revision": 29,
+  "latest_event_at": "2026-10-02T14:45:48+00:00",
   "publication": {
     "site_url": "https://miskibin.github.io/simfactor-progress/",
-    "generation": "662d006bb5ae97bfb37d339a"
+    "generation": "04b6ed54d722d5d8567b55cd"
   },
-  "generated_at": "2026-10-02T14:35:37+00:00"
+  "generated_at": "2026-10-02T14:45:57+00:00"
 }
