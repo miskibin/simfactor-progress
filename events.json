@@ -2,6 +2,24 @@
   "schema_version": 1,
   "events": [
     {
+      "id": "e-738ad6ba6d7d",
+      "kind": "result",
+      "text": "Natywne zdarzenia minięcia: czułość 0,93 i 7× mniej fałszywych rekordów niż ByteTrack; klasa z głosowania nadal bezużyteczna.",
+      "detail": null,
+      "url": null,
+      "author": {
+        "name": "Agent",
+        "session_id": null
+      },
+      "origin": "agent",
+      "source_label": null,
+      "created_at": "2026-10-03T11:17:26+00:00",
+      "updated_at": "2026-10-03T11:17:26+00:00",
+      "resolved_at": null,
+      "resolution": null,
+      "status": "recorded"
+    },
+    {
       "id": "e-2037636499d7",
       "kind": "result",
       "text": "Obrysy masztów mają błędy pomiaru i zawyżoną pewność; przed testem potrzebne są dokładne referencje 20 różnych masztów.",
@@ -722,11 +740,11 @@
       "status": "resolved"
     }
   ],
-  "revision": 45,
-  "latest_event_at": "2026-10-03T06:48:39+00:00",
+  "revision": 46,
+  "latest_event_at": "2026-10-03T11:17:26+00:00",
   "publication": {
     "site_url": "https://miskibin.github.io/simfactor-progress/",
-    "generation": "c1f1156a94620dd47e04dfdc"
+    "generation": "088b998667d79ea0541e5925"
   },
-  "generated_at": "2026-10-03T06:48:47+00:00"
+  "generated_at": "2026-10-03T11:17:34+00:00"
 }
