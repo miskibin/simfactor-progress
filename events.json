@@ -2,6 +2,24 @@
   "schema_version": 1,
   "events": [
     {
+      "id": "e-2037636499d7",
+      "kind": "result",
+      "text": "Obrysy masztów mają błędy pomiaru i zawyżoną pewność; przed testem potrzebne są dokładne referencje 20 różnych masztów.",
+      "detail": null,
+      "url": null,
+      "author": {
+        "name": "Oceń niezależnie generalizację detektora",
+        "session_id": "01a0fbd5-760d-76d0-9242-db5427057ee3"
+      },
+      "origin": "agent",
+      "source_label": null,
+      "created_at": "2026-10-03T06:48:39+00:00",
+      "updated_at": "2026-10-03T06:48:39+00:00",
+      "resolved_at": null,
+      "resolution": null,
+      "status": "recorded"
+    },
+    {
       "id": "e-cec2ab43b44e",
       "kind": "result",
       "text": "Kontrola partii 120 klatek ujawniła błędne podglądy i zapis korekty; 493 propozycje pozostają w kwarantannie. Z tej partii nie trenowano.",
@@ -704,11 +722,11 @@
       "status": "resolved"
     }
   ],
-  "revision": 44,
-  "latest_event_at": "2026-10-03T03:41:43+00:00",
+  "revision": 45,
+  "latest_event_at": "2026-10-03T06:48:39+00:00",
   "publication": {
     "site_url": "https://miskibin.github.io/simfactor-progress/",
-    "generation": "d4c51a810a9eaec710cb7f74"
+    "generation": "c1f1156a94620dd47e04dfdc"
   },
-  "generated_at": "2026-10-03T03:41:51+00:00"
+  "generated_at": "2026-10-03T06:48:47+00:00"
 }
